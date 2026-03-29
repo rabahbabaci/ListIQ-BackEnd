@@ -1,0 +1,24 @@
+# Data collection
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# EDA & visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Modeling
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# Demo interface
+streamlit>=1.28.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
