@@ -1,0 +1,87 @@
+{
+  "item": {
+    "category": "handbag",
+    "brand": "Coach",
+    "size": "OS",
+    "condition": "Good",
+    "color": "black",
+    "estimated_retail": 350.0
+  },
+  "recommendations": [
+    {
+      "platform": "eBay",
+      "rank": 1,
+      "fit_score": 10.0,
+      "price_tiers": {
+        "fast_sale": 22,
+        "balanced": 52,
+        "max_revenue": 119
+      },
+      "platform_fee_pct": 0.13,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 13.15,
+        "balanced": 39.25,
+        "max_revenue": 97.54
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 67.29,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 16,
+      "reasoning": "Handbags nets $7 more than Poshmark and estimated 6 days faster on eBay after 13% fee"
+    },
+    {
+      "platform": "Poshmark",
+      "rank": 2,
+      "fit_score": 7.0,
+      "price_tiers": {
+        "fast_sale": 20,
+        "balanced": 48,
+        "max_revenue": 114
+      },
+      "platform_fee_pct": 0.2,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 10.01,
+        "balanced": 32.41,
+        "max_revenue": 85.21
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 55.56,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 22,
+      "reasoning": "Poshmark is a viable alternative at $32 net profit in ~22 days (20% fee)"
+    },
+    {
+      "platform": "Depop",
+      "rank": 3,
+      "fit_score": 6.2,
+      "price_tiers": {
+        "fast_sale": 31,
+        "balanced": 40,
+        "max_revenue": 86
+      },
+      "platform_fee_pct": 0.1,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 21.91,
+        "balanced": 30.01,
+        "max_revenue": 71.41
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 51.45,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 24,
+      "reasoning": "Depop has lower fees (10%) but estimated net profit is $9 less than eBay (listed-price proxy)"
+    }
+  ],
+  "worth_it": {
+    "verdict": true,
+    "best_net_profit": 39.25,
+    "best_platform": "eBay",
+    "effective_hourly_rate": 67.29,
+    "explanation": "Worth listing \u2014 estimated $13-98 net profit on eBay after fees and shipping"
+  },
+  "demo_item_id": "coach-handbag",
+  "demo_narrative_purpose": "Surprising routing \u2014 eBay beats Poshmark for Coach (Poshmark is known for Coach)"
+}

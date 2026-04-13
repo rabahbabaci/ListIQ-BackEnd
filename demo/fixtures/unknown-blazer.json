@@ -1,0 +1,87 @@
+{
+  "item": {
+    "category": "blazer",
+    "brand": "Unknown",
+    "size": "L",
+    "condition": "Good",
+    "color": "gray",
+    "estimated_retail": 40.0
+  },
+  "recommendations": [
+    {
+      "platform": "Poshmark",
+      "rank": 1,
+      "fit_score": 10.0,
+      "price_tiers": {
+        "fast_sale": 9,
+        "balanced": 17,
+        "max_revenue": 27
+      },
+      "platform_fee_pct": 0.2,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 1.21,
+        "balanced": 7.61,
+        "max_revenue": 15.61
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 13.05,
+      "sell_probability_30d": 0.86,
+      "estimated_days_to_sale": 35,
+      "reasoning": "Blazers estimated 3 days faster on Poshmark after 20% fee"
+    },
+    {
+      "platform": "Depop",
+      "rank": 2,
+      "fit_score": 9.7,
+      "price_tiers": {
+        "fast_sale": 9,
+        "balanced": 16,
+        "max_revenue": 32
+      },
+      "platform_fee_pct": 0.1,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 2.11,
+        "balanced": 8.41,
+        "max_revenue": 22.81
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 14.42,
+      "sell_probability_30d": 0.79,
+      "estimated_days_to_sale": 38,
+      "reasoning": "Depop has lower fees (10%) but estimated net profit is $-1 less than Poshmark (limited training data \u2014 listed-price proxy)"
+    },
+    {
+      "platform": "eBay",
+      "rank": 3,
+      "fit_score": 6.3,
+      "price_tiers": {
+        "fast_sale": 6,
+        "balanced": 11,
+        "max_revenue": 20
+      },
+      "platform_fee_pct": 0.13,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": -0.77,
+        "balanced": 3.58,
+        "max_revenue": 11.41
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 6.14,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 26,
+      "reasoning": "eBay offers faster sell-through (~26 days, 9 days quicker) but 13% fee leaves $4 less net profit"
+    }
+  ],
+  "worth_it": {
+    "verdict": "marginal",
+    "best_net_profit": 7.61,
+    "best_platform": "Poshmark",
+    "effective_hourly_rate": 13.05,
+    "explanation": "Marginal \u2014 estimated $8 net profit on Poshmark, but effective hourly rate ($13/hr) is below $20"
+  },
+  "demo_item_id": "unknown-blazer",
+  "demo_narrative_purpose": "No brand signal, low confidence \u2014 marginal verdict"
+}

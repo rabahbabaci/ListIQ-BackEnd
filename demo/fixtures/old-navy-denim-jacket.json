@@ -1,0 +1,87 @@
+{
+  "item": {
+    "category": "denim jacket",
+    "brand": "Old Navy",
+    "size": "M",
+    "condition": "Good",
+    "color": "blue",
+    "estimated_retail": 35.0
+  },
+  "recommendations": [
+    {
+      "platform": "Poshmark",
+      "rank": 1,
+      "fit_score": 10.0,
+      "price_tiers": {
+        "fast_sale": 8,
+        "balanced": 11,
+        "max_revenue": 17
+      },
+      "platform_fee_pct": 0.2,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 0.41,
+        "balanced": 2.81,
+        "max_revenue": 7.61
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 4.82,
+      "sell_probability_30d": 0.77,
+      "estimated_days_to_sale": 39,
+      "reasoning": "Best overall value for denim jackets on Poshmark \u2014 $3 net profit in ~39 days"
+    },
+    {
+      "platform": "eBay",
+      "rank": 2,
+      "fit_score": 9.9,
+      "price_tiers": {
+        "fast_sale": 4,
+        "balanced": 9,
+        "max_revenue": 17
+      },
+      "platform_fee_pct": 0.13,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": -2.51,
+        "balanced": 1.84,
+        "max_revenue": 8.8
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 3.15,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 29,
+      "reasoning": "eBay offers faster sell-through (~29 days, 10 days quicker) but 13% fee leaves $1 less net profit"
+    },
+    {
+      "platform": "Depop",
+      "rank": 3,
+      "fit_score": 3.7,
+      "price_tiers": {
+        "fast_sale": 5,
+        "balanced": 8,
+        "max_revenue": 14
+      },
+      "platform_fee_pct": 0.1,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": -1.49,
+        "balanced": 1.21,
+        "max_revenue": 6.61
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 2.07,
+      "sell_probability_30d": 0.7,
+      "estimated_days_to_sale": 43,
+      "reasoning": "Depop has lower fees (10%) but estimated net profit is $2 less than Poshmark (listed-price proxy)"
+    }
+  ],
+  "worth_it": {
+    "verdict": false,
+    "best_net_profit": 2.81,
+    "best_platform": "Poshmark",
+    "effective_hourly_rate": 4.82,
+    "explanation": "Not worth listing \u2014 estimated $3 net profit on Poshmark yields only $5/hr effective rate"
+  },
+  "demo_item_id": "old-navy-denim-jacket",
+  "demo_narrative_purpose": "THE 'don't sell' punchline \u2014 $5/hr, not worth your time"
+}

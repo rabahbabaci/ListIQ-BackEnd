@@ -1,0 +1,87 @@
+{
+  "item": {
+    "category": "denim jacket",
+    "brand": "Unknown",
+    "size": "L",
+    "condition": "Good",
+    "color": "black",
+    "estimated_retail": 30.0
+  },
+  "recommendations": [
+    {
+      "platform": "eBay",
+      "rank": 1,
+      "fit_score": 10.0,
+      "price_tiers": {
+        "fast_sale": 7,
+        "balanced": 17,
+        "max_revenue": 31
+      },
+      "platform_fee_pct": 0.13,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 0.1,
+        "balanced": 8.8,
+        "max_revenue": 20.98
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 15.09,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 29,
+      "reasoning": "Denim Jackets estimated 10 days faster on eBay after 13% fee"
+    },
+    {
+      "platform": "Poshmark",
+      "rank": 2,
+      "fit_score": 6.3,
+      "price_tiers": {
+        "fast_sale": 13,
+        "balanced": 18,
+        "max_revenue": 28
+      },
+      "platform_fee_pct": 0.2,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 4.41,
+        "balanced": 8.41,
+        "max_revenue": 16.41
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 14.42,
+      "sell_probability_30d": 0.77,
+      "estimated_days_to_sale": 39,
+      "reasoning": "Poshmark is a viable alternative at $8 net profit in ~39 days (20% fee)"
+    },
+    {
+      "platform": "Depop",
+      "rank": 3,
+      "fit_score": 3.7,
+      "price_tiers": {
+        "fast_sale": 9,
+        "balanced": 13,
+        "max_revenue": 23
+      },
+      "platform_fee_pct": 0.1,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 2.11,
+        "balanced": 5.71,
+        "max_revenue": 14.71
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 9.79,
+      "sell_probability_30d": 0.7,
+      "estimated_days_to_sale": 43,
+      "reasoning": "Depop has lower fees (10%) but estimated net profit is $3 less than eBay (listed-price proxy)"
+    }
+  ],
+  "worth_it": {
+    "verdict": "marginal",
+    "best_net_profit": 8.8,
+    "best_platform": "eBay",
+    "effective_hourly_rate": 15.09,
+    "explanation": "Marginal \u2014 estimated $9 net profit on eBay, but effective hourly rate ($15/hr) is below $20"
+  },
+  "demo_item_id": "unknown-denim-jacket",
+  "demo_narrative_purpose": "Reinforces don't-sell \u2014 unknown brand, low value category"
+}

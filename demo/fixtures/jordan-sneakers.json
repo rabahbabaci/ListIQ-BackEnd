@@ -1,0 +1,87 @@
+{
+  "item": {
+    "category": "sneakers",
+    "brand": "Jordan",
+    "size": "11",
+    "condition": "Like New",
+    "color": "red",
+    "estimated_retail": 190.0
+  },
+  "recommendations": [
+    {
+      "platform": "eBay",
+      "rank": 1,
+      "fit_score": 10.0,
+      "price_tiers": {
+        "fast_sale": 56,
+        "balanced": 96,
+        "max_revenue": 151
+      },
+      "platform_fee_pct": 0.13,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 42.73,
+        "balanced": 77.53,
+        "max_revenue": 125.38
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 132.91,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 17,
+      "reasoning": "Sneakerss nets $6 more than Poshmark and estimated 6 days faster on eBay after 13% fee"
+    },
+    {
+      "platform": "Poshmark",
+      "rank": 2,
+      "fit_score": 7.9,
+      "price_tiers": {
+        "fast_sale": 69,
+        "balanced": 97,
+        "max_revenue": 138
+      },
+      "platform_fee_pct": 0.2,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 49.21,
+        "balanced": 71.61,
+        "max_revenue": 104.41
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 122.76,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 23,
+      "reasoning": "Poshmark is a viable alternative at $72 net profit in ~23 days (20% fee)"
+    },
+    {
+      "platform": "Depop",
+      "rank": 3,
+      "fit_score": 7.3,
+      "price_tiers": {
+        "fast_sale": 41,
+        "balanced": 83,
+        "max_revenue": 188
+      },
+      "platform_fee_pct": 0.1,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 30.91,
+        "balanced": 68.71,
+        "max_revenue": 163.21
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 117.79,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 25,
+      "reasoning": "Depop has lower fees (10%) but estimated net profit is $9 less than eBay (listed-price proxy)"
+    }
+  ],
+  "worth_it": {
+    "verdict": true,
+    "best_net_profit": 77.53,
+    "best_platform": "eBay",
+    "effective_hourly_rate": 132.91,
+    "explanation": "Worth listing \u2014 estimated $43-125 net profit on eBay after fees and shipping"
+  },
+  "demo_item_id": "jordan-sneakers",
+  "demo_narrative_purpose": "Premium sneaker, highest sneaker ROI"
+}

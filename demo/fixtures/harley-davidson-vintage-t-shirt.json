@@ -1,0 +1,87 @@
+{
+  "item": {
+    "category": "vintage t-shirt",
+    "brand": "Harley-Davidson",
+    "size": "L",
+    "condition": "Good",
+    "color": "black",
+    "estimated_retail": 45.0
+  },
+  "recommendations": [
+    {
+      "platform": "eBay",
+      "rank": 1,
+      "fit_score": 10.0,
+      "price_tiers": {
+        "fast_sale": 19,
+        "balanced": 35,
+        "max_revenue": 58
+      },
+      "platform_fee_pct": 0.13,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 10.54,
+        "balanced": 24.46,
+        "max_revenue": 44.47
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 41.93,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 15,
+      "reasoning": "Vintage T-Shirts estimated 7 days faster on eBay after 13% fee"
+    },
+    {
+      "platform": "Depop",
+      "rank": 2,
+      "fit_score": 9.2,
+      "price_tiers": {
+        "fast_sale": 20,
+        "balanced": 37,
+        "max_revenue": 73
+      },
+      "platform_fee_pct": 0.1,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 12.01,
+        "balanced": 27.31,
+        "max_revenue": 59.71
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 46.82,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 22,
+      "reasoning": "Depop has lower fees (10%) but estimated net profit is $-3 less than eBay (limited training data \u2014 listed-price proxy)"
+    },
+    {
+      "platform": "Poshmark",
+      "rank": 3,
+      "fit_score": 5.0,
+      "price_tiers": {
+        "fast_sale": 14,
+        "balanced": 25,
+        "max_revenue": 39
+      },
+      "platform_fee_pct": 0.2,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 5.21,
+        "balanced": 14.01,
+        "max_revenue": 25.21
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 24.02,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 20,
+      "reasoning": "Poshmark is a viable alternative at $14 net profit in ~20 days (20% fee)"
+    }
+  ],
+  "worth_it": {
+    "verdict": true,
+    "best_net_profit": 24.46,
+    "best_platform": "eBay",
+    "effective_hourly_rate": 41.93,
+    "explanation": "Worth listing \u2014 estimated $11-44 net profit on eBay after fees and shipping"
+  },
+  "demo_item_id": "harley-davidson-vintage-t-shirt",
+  "demo_narrative_purpose": "2-way category, niche brand with collector appeal"
+}
