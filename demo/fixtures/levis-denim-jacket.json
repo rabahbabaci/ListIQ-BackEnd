@@ -1,0 +1,87 @@
+{
+  "item": {
+    "category": "denim jacket",
+    "brand": "Levi's",
+    "size": "M",
+    "condition": "Like New",
+    "color": "blue",
+    "estimated_retail": 89.99
+  },
+  "recommendations": [
+    {
+      "platform": "eBay",
+      "rank": 1,
+      "fit_score": 10.0,
+      "price_tiers": {
+        "fast_sale": 20,
+        "balanced": 47,
+        "max_revenue": 85
+      },
+      "platform_fee_pct": 0.13,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 11.41,
+        "balanced": 34.9,
+        "max_revenue": 67.96
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 59.83,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 29,
+      "reasoning": "Denim Jackets nets $10 more than Poshmark and estimated 10 days faster on eBay after 13% fee"
+    },
+    {
+      "platform": "Poshmark",
+      "rank": 2,
+      "fit_score": 4.8,
+      "price_tiers": {
+        "fast_sale": 27,
+        "balanced": 39,
+        "max_revenue": 61
+      },
+      "platform_fee_pct": 0.2,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 15.61,
+        "balanced": 25.21,
+        "max_revenue": 42.81
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 43.22,
+      "sell_probability_30d": 0.77,
+      "estimated_days_to_sale": 39,
+      "reasoning": "Poshmark is a viable alternative at $25 net profit in ~39 days (20% fee)"
+    },
+    {
+      "platform": "Depop",
+      "rank": 3,
+      "fit_score": 3.9,
+      "price_tiers": {
+        "fast_sale": 21,
+        "balanced": 33,
+        "max_revenue": 57
+      },
+      "platform_fee_pct": 0.1,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 12.91,
+        "balanced": 23.71,
+        "max_revenue": 45.31
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 40.65,
+      "sell_probability_30d": 0.7,
+      "estimated_days_to_sale": 43,
+      "reasoning": "Depop has lower fees (10%) but estimated net profit is $11 less than eBay (listed-price proxy)"
+    }
+  ],
+  "worth_it": {
+    "verdict": true,
+    "best_net_profit": 34.9,
+    "best_platform": "eBay",
+    "effective_hourly_rate": 59.83,
+    "explanation": "Worth listing \u2014 estimated $11-68 net profit on eBay after fees and shipping"
+  },
+  "demo_item_id": "levis-denim-jacket",
+  "demo_narrative_purpose": "Brand recognition opener \u2014 clear worth-it"
+}

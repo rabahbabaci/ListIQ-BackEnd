@@ -1,0 +1,130 @@
+[
+  {
+    "demo_item_id": "levis-denim-jacket",
+    "narrative_purpose": "Brand recognition opener \u2014 clear worth-it",
+    "category": "denim jacket",
+    "brand": "Levi's",
+    "best_platform": "eBay",
+    "verdict": true
+  },
+  {
+    "demo_item_id": "nike-sneakers",
+    "narrative_purpose": "Mass-market brand, high confidence routing",
+    "category": "sneakers",
+    "brand": "Nike",
+    "best_platform": "eBay",
+    "verdict": true
+  },
+  {
+    "demo_item_id": "jordan-sneakers",
+    "narrative_purpose": "Premium sneaker, highest sneaker ROI",
+    "category": "sneakers",
+    "brand": "Jordan",
+    "best_platform": "eBay",
+    "verdict": true
+  },
+  {
+    "demo_item_id": "louis-vuitton-handbag",
+    "narrative_purpose": "Luxury showcase \u2014 dramatic $/hr (note: luxury tier has high model uncertainty, MAE $339)",
+    "category": "handbag",
+    "brand": "Louis Vuitton",
+    "best_platform": "eBay",
+    "verdict": true
+  },
+  {
+    "demo_item_id": "coach-crossbody-bag",
+    "narrative_purpose": "Premium accessory, strong eBay routing",
+    "category": "crossbody bag",
+    "brand": "Coach",
+    "best_platform": "eBay",
+    "verdict": true
+  },
+  {
+    "demo_item_id": "anthropologie-midi-dress",
+    "narrative_purpose": "Poshmark wins \u2014 brand-audience fit",
+    "category": "midi dress",
+    "brand": "Anthropologie",
+    "best_platform": "Poshmark",
+    "verdict": true
+  },
+  {
+    "demo_item_id": "harley-davidson-vintage-t-shirt",
+    "narrative_purpose": "2-way category, niche brand with collector appeal",
+    "category": "vintage t-shirt",
+    "brand": "Harley-Davidson",
+    "best_platform": "eBay",
+    "verdict": true
+  },
+  {
+    "demo_item_id": "levis-leather-jacket",
+    "narrative_purpose": "High-value 2-way item, strong premium signal",
+    "category": "leather jacket",
+    "brand": "Levi's",
+    "best_platform": "eBay",
+    "verdict": true
+  },
+  {
+    "demo_item_id": "handm-midi-dress",
+    "narrative_purpose": "Budget fast-fashion \u2014 marginal, 'think twice' moment",
+    "category": "midi dress",
+    "brand": "H&M",
+    "best_platform": "Poshmark",
+    "verdict": "marginal"
+  },
+  {
+    "demo_item_id": "unknown-blazer",
+    "narrative_purpose": "No brand signal, low confidence \u2014 marginal verdict",
+    "category": "blazer",
+    "brand": "Unknown",
+    "best_platform": "Poshmark",
+    "verdict": "marginal"
+  },
+  {
+    "demo_item_id": "unknown-midi-dress",
+    "narrative_purpose": "Cheapest item in demo \u2014 barely above threshold",
+    "category": "midi dress",
+    "brand": "Unknown",
+    "best_platform": "Poshmark",
+    "verdict": "marginal"
+  },
+  {
+    "demo_item_id": "zara-denim-jacket",
+    "narrative_purpose": "Known brand but low margin category \u2014 marginal zone",
+    "category": "denim jacket",
+    "brand": "Zara",
+    "best_platform": "eBay",
+    "verdict": true
+  },
+  {
+    "demo_item_id": "old-navy-denim-jacket",
+    "narrative_purpose": "THE 'don't sell' punchline \u2014 $5/hr, not worth your time",
+    "category": "denim jacket",
+    "brand": "Old Navy",
+    "best_platform": "Poshmark",
+    "verdict": false
+  },
+  {
+    "demo_item_id": "unknown-denim-jacket",
+    "narrative_purpose": "Reinforces don't-sell \u2014 unknown brand, low value category",
+    "category": "denim jacket",
+    "brand": "Unknown",
+    "best_platform": "eBay",
+    "verdict": "marginal"
+  },
+  {
+    "demo_item_id": "coach-handbag",
+    "narrative_purpose": "Surprising routing \u2014 eBay beats Poshmark for Coach (Poshmark is known for Coach)",
+    "category": "handbag",
+    "brand": "Coach",
+    "best_platform": "eBay",
+    "verdict": true
+  },
+  {
+    "demo_item_id": "free-people-midi-dress",
+    "narrative_purpose": "Poshmark wins again \u2014 brand-audience alignment",
+    "category": "midi dress",
+    "brand": "Free People",
+    "best_platform": "Poshmark",
+    "verdict": true
+  }
+]

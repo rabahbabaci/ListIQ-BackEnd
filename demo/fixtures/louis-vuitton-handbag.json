@@ -1,0 +1,87 @@
+{
+  "item": {
+    "category": "handbag",
+    "brand": "Louis Vuitton",
+    "size": "OS",
+    "condition": "Like New",
+    "color": "brown",
+    "estimated_retail": 2000.0
+  },
+  "recommendations": [
+    {
+      "platform": "eBay",
+      "rank": 1,
+      "fit_score": 10.0,
+      "price_tiers": {
+        "fast_sale": 140,
+        "balanced": 324,
+        "max_revenue": 749
+      },
+      "platform_fee_pct": 0.13,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 115.81,
+        "balanced": 275.89,
+        "max_revenue": 645.64
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 472.95,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 16,
+      "reasoning": "Handbags estimated 6 days faster on eBay after 13% fee"
+    },
+    {
+      "platform": "Poshmark",
+      "rank": 2,
+      "fit_score": 8.7,
+      "price_tiers": {
+        "fast_sale": 151,
+        "balanced": 358,
+        "max_revenue": 849
+      },
+      "platform_fee_pct": 0.2,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 114.81,
+        "balanced": 280.41,
+        "max_revenue": 673.21
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 480.7,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 22,
+      "reasoning": "Poshmark is a viable alternative at $280 net profit in ~22 days (20% fee)"
+    },
+    {
+      "platform": "Depop",
+      "rank": 3,
+      "fit_score": 7.3,
+      "price_tiers": {
+        "fast_sale": 220,
+        "balanced": 280,
+        "max_revenue": 601
+      },
+      "platform_fee_pct": 0.1,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 192.01,
+        "balanced": 246.01,
+        "max_revenue": 534.91
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 421.73,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 24,
+      "reasoning": "Depop has lower fees (10%) but estimated net profit is $30 less than eBay (listed-price proxy)"
+    }
+  ],
+  "worth_it": {
+    "verdict": true,
+    "best_net_profit": 275.89,
+    "best_platform": "eBay",
+    "effective_hourly_rate": 472.95,
+    "explanation": "Worth listing \u2014 estimated $116-646 net profit on eBay after fees and shipping"
+  },
+  "demo_item_id": "louis-vuitton-handbag",
+  "demo_narrative_purpose": "Luxury showcase \u2014 dramatic $/hr (note: luxury tier has high model uncertainty, MAE $339)"
+}

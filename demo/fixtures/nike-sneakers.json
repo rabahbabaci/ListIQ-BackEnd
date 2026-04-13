@@ -1,0 +1,87 @@
+{
+  "item": {
+    "category": "sneakers",
+    "brand": "Nike",
+    "size": "10",
+    "condition": "New",
+    "color": "white",
+    "estimated_retail": 120.0
+  },
+  "recommendations": [
+    {
+      "platform": "eBay",
+      "rank": 1,
+      "fit_score": 10.0,
+      "price_tiers": {
+        "fast_sale": 38,
+        "balanced": 65,
+        "max_revenue": 104
+      },
+      "platform_fee_pct": 0.13,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 27.07,
+        "balanced": 50.56,
+        "max_revenue": 84.49
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 86.67,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 17,
+      "reasoning": "Sneakerss nets $13 more than Depop and estimated 8 days faster on eBay after 13% fee"
+    },
+    {
+      "platform": "Depop",
+      "rank": 2,
+      "fit_score": 6.1,
+      "price_tiers": {
+        "fast_sale": 24,
+        "balanced": 48,
+        "max_revenue": 109
+      },
+      "platform_fee_pct": 0.1,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 15.61,
+        "balanced": 37.21,
+        "max_revenue": 92.11
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 63.79,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 25,
+      "reasoning": "Depop has lower fees (10%) but estimated net profit is $13 less than eBay (listed-price proxy)"
+    },
+    {
+      "platform": "Poshmark",
+      "rank": 3,
+      "fit_score": 5.9,
+      "price_tiers": {
+        "fast_sale": 36,
+        "balanced": 51,
+        "max_revenue": 72
+      },
+      "platform_fee_pct": 0.2,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 22.81,
+        "balanced": 34.81,
+        "max_revenue": 51.61
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 59.67,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 23,
+      "reasoning": "Poshmark is a viable alternative at $35 net profit in ~23 days (20% fee)"
+    }
+  ],
+  "worth_it": {
+    "verdict": true,
+    "best_net_profit": 50.56,
+    "best_platform": "eBay",
+    "effective_hourly_rate": 86.67,
+    "explanation": "Worth listing \u2014 estimated $27-84 net profit on eBay after fees and shipping"
+  },
+  "demo_item_id": "nike-sneakers",
+  "demo_narrative_purpose": "Mass-market brand, high confidence routing"
+}

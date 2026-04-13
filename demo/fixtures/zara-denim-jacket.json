@@ -1,0 +1,87 @@
+{
+  "item": {
+    "category": "denim jacket",
+    "brand": "Zara",
+    "size": "S",
+    "condition": "Good",
+    "color": "light wash",
+    "estimated_retail": 49.99
+  },
+  "recommendations": [
+    {
+      "platform": "eBay",
+      "rank": 1,
+      "fit_score": 10.0,
+      "price_tiers": {
+        "fast_sale": 9,
+        "balanced": 22,
+        "max_revenue": 40
+      },
+      "platform_fee_pct": 0.13,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 1.84,
+        "balanced": 13.15,
+        "max_revenue": 28.81
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 22.54,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 29,
+      "reasoning": "Denim Jackets nets $2 more than Poshmark and estimated 10 days faster on eBay after 13% fee"
+    },
+    {
+      "platform": "Poshmark",
+      "rank": 2,
+      "fit_score": 5.9,
+      "price_tiers": {
+        "fast_sale": 15,
+        "balanced": 22,
+        "max_revenue": 34
+      },
+      "platform_fee_pct": 0.2,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 6.01,
+        "balanced": 11.61,
+        "max_revenue": 21.21
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 19.9,
+      "sell_probability_30d": 0.77,
+      "estimated_days_to_sale": 39,
+      "reasoning": "Poshmark is a viable alternative at $12 net profit in ~39 days (20% fee)"
+    },
+    {
+      "platform": "Depop",
+      "rank": 3,
+      "fit_score": 4.1,
+      "price_tiers": {
+        "fast_sale": 11,
+        "balanced": 17,
+        "max_revenue": 29
+      },
+      "platform_fee_pct": 0.1,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 3.91,
+        "balanced": 9.31,
+        "max_revenue": 20.11
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 15.96,
+      "sell_probability_30d": 0.7,
+      "estimated_days_to_sale": 43,
+      "reasoning": "Depop has lower fees (10%) but estimated net profit is $4 less than eBay (listed-price proxy)"
+    }
+  ],
+  "worth_it": {
+    "verdict": true,
+    "best_net_profit": 13.15,
+    "best_platform": "eBay",
+    "effective_hourly_rate": 22.54,
+    "explanation": "Worth listing \u2014 estimated $2-29 net profit on eBay after fees and shipping"
+  },
+  "demo_item_id": "zara-denim-jacket",
+  "demo_narrative_purpose": "Known brand but low margin category \u2014 marginal zone"
+}

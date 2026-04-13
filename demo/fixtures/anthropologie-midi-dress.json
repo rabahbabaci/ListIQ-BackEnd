@@ -1,0 +1,87 @@
+{
+  "item": {
+    "category": "midi dress",
+    "brand": "Anthropologie",
+    "size": "M",
+    "condition": "Like New",
+    "color": "floral",
+    "estimated_retail": 148.0
+  },
+  "recommendations": [
+    {
+      "platform": "Poshmark",
+      "rank": 1,
+      "fit_score": 10.0,
+      "price_tiers": {
+        "fast_sale": 32,
+        "balanced": 47,
+        "max_revenue": 71
+      },
+      "platform_fee_pct": 0.2,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 19.61,
+        "balanced": 31.61,
+        "max_revenue": 50.81
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 54.19,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 23,
+      "reasoning": "Midi Dresss nets $9 more than Depop on Poshmark after 20% fee"
+    },
+    {
+      "platform": "Depop",
+      "rank": 2,
+      "fit_score": 6.9,
+      "price_tiers": {
+        "fast_sale": 17,
+        "balanced": 32,
+        "max_revenue": 57
+      },
+      "platform_fee_pct": 0.1,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 9.31,
+        "balanced": 22.81,
+        "max_revenue": 45.31
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 39.1,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 25,
+      "reasoning": "Depop has lower fees (10%) but estimated net profit is $9 less than Poshmark (listed-price proxy)"
+    },
+    {
+      "platform": "eBay",
+      "rank": 3,
+      "fit_score": 6.1,
+      "price_tiers": {
+        "fast_sale": 12,
+        "balanced": 26,
+        "max_revenue": 49
+      },
+      "platform_fee_pct": 0.13,
+      "estimated_shipping": 5.99,
+      "net_profit": {
+        "fast_sale": 4.45,
+        "balanced": 16.63,
+        "max_revenue": 36.64
+      },
+      "estimated_time_minutes": 35,
+      "effective_hourly_rate": 28.51,
+      "sell_probability_30d": 1.0,
+      "estimated_days_to_sale": 17,
+      "reasoning": "eBay offers faster sell-through (~17 days, 6 days quicker) but 13% fee leaves $15 less net profit"
+    }
+  ],
+  "worth_it": {
+    "verdict": true,
+    "best_net_profit": 31.61,
+    "best_platform": "Poshmark",
+    "effective_hourly_rate": 54.19,
+    "explanation": "Worth listing \u2014 estimated $20-51 net profit on Poshmark after fees and shipping"
+  },
+  "demo_item_id": "anthropologie-midi-dress",
+  "demo_narrative_purpose": "Poshmark wins \u2014 brand-audience fit"
+}
